@@ -1,0 +1,84 @@
+
+.video{
+    width: 100%;
+    height: 100%;
+    position: static;
+}
+.block1{
+    
+    
+}
+.brand1{
+    background: #002d72;
+    background-image: url(../images/brand-bg-laptop-blue.fb94bd08.jpg);
+    
+    height: 150vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+    z-index: 0;
+}
+.change1{
+    background-image: url(../images/torn-paper-desk.ca513985.png);
+    width: 100%;
+    height: 5vh;
+    margin-top: -4vh;
+    z-index: 100;
+    position: relative;
+}
+.line-one{
+    font-size: 5.25vw;
+    font-weight: 500;
+    font-family: factoria, tahoma, sans-serif;
+    
+}
+.line-two{
+    display: block;
+    text-align: center;
+    font-size: 5.25vw;
+    font-weight: 500;
+    font-family: factoria, tahoma, sans-serif;
+}
+.line-three{
+    display: block;
+    font-size: 14.5vw;
+    text-align: right;
+   
+    font-weight: 900;
+    font-family: factoria, tahoma, sans-serif;
+}
+.line-four{
+    font-size: 12.5vw;
+    text-align: left;
+    margin-top: -5vh;
+    font-weight: 900;
+    font-family: factoria, tahoma, sans-serif;
+
+}
+.content{
+    width: 80vw;
+    left: 10vw;
+    display: block;
+    position: absolute;
+    top: 10vh;
+}
+.text1{
+    font-size: 2.5vw;
+    margin: 0 0 0 30.9045226131%;
+    text-align: left;
+}
+.marker-stroke{
+    background-image: url(../images/links-bg-1-laptop.825ffa8b.png);
+    
+    width: 100%;
+    height: 4vh;
+    margin-top: -4vh;
+    z-index: 100;
+    position: relative;
+}
+.center-force{
+    background-color: #002d72;
+    height: 40vh;
+}
