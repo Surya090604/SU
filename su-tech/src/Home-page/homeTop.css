@@ -1,4 +1,4 @@
-
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
 .video{
     width: 100%;
     height: 100%;
@@ -78,7 +78,395 @@
     z-index: 100;
     position: relative;
 }
+.marker-stroke-white{
+    background-image: url(../images/torn-paper-desk.ca513985.png);
+    
+    width: 100%;
+    height: 4vh;
+    margin-top: -4vh;
+    z-index: 100;
+    position: relative;
+}
 .center-force{
     background-color: #002d72;
     height: 40vh;
+}
+.brand3{
+    
+    background-image: url(../images/download\ \(1\).svg);
+    
+    height: 150vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+    z-index: 0;
+}
+
+.text-paper{
+    position: relative;
+    height: 150vh;
+    width: 100%;
+    
+    
+
+}
+.text-paper::before{
+    
+    background-image: url(../images/textured_paper_increased_contrast@2X.505d44d5\ \(1\).jpg);
+    opacity: 0.5;   
+    height: 150vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.parent-container {
+    display: flex;
+    width: 100%;
+    height: 40vh; /* Adjust height as needed */
+  }
+  
+  .box {
+    width: 25%; /* 4 equal containers */
+    height: 100%;
+    background-color: #ccc;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+  }
+  
+  .box:hover {
+    background-color: #bbb; /* Optional hover effect */
+  }
+  
+  .hover-container {
+    position: absolute;
+    bottom: -50%; /* Initially hidden */
+    left: 0;
+    width: 100%;
+    height: 50%; /* Half the height of the parent box */
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: bottom 0.3s ease;
+  }
+  
+  .hover-container.show {
+    bottom: 0; /* Show the container on hover */
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: #f0f0f0;
+    border: none;
+    cursor: pointer;
+  }
+  .social-container {
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 20px; /* Space between icons */
+  }
+  
+  .social-icons a {
+    color: grey;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #ffcc00; /* Change color on hover */
+  }
+
+  .brand4{
+    
+    background-image: url(../images/profiles-marble-bg-laptop.12c3dddf\ \(1\).jpg);
+    
+    height: 100vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+    z-index: 0;
+}
+/* Footer styles */
+.footer {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Vertically center all sections */
+    
+  }
+  
+  /* Ensure all sections are horizontally centered */
+  .footer-logo, .footer-address, .footer-subheadings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .footer-logo img {
+    max-width: 100px; /* Set appropriate size for logo */
+    margin: 100px;
+  }
+  
+  .footer-address {
+    line-height: 1.5;
+  }
+  
+  .footer-subheadings {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+  }
+  
+  .subheading h4 {
+    margin: 0;
+  }
+  
+  .subheading hr {
+    width: 100%;
+    border: 1px solid white;
+    margin: 5px 0;
+  }
+  /* Explore Section */
+.explore-section {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#002d72 ; /* Optional background color */
+  }
+  
+  /* Centered Heading */
+  .explore-heading {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Single Row of Boxes */
+  .explore-row {
+    display: flex;
+    width: 80%;
+    height: 40%; /* Adjust height as needed */
+    justify-content: space-between;
+    color: white;
+  }
+  
+  .explore-box {
+    flex: 1;
+    border-left: 0.5px solid white; /* Vertical line between boxes */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    padding: 10px; /* Add padding as needed */
+  }
+  
+  .explore-box:first-child {
+    border-left: none; /* Remove left border from the first box */
+  }
+  .container-1{
+    
+    background-color: black;
+    width: 50vw;
+    height: 80vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 20vh;
+    left: 20vh;
+    position: relative;
+    z-index: 2;
+    border: .1875em solid #68ace5;
+    box-shadow: 10px 10px 10px #68ace5;
+    
+}
+/* Small Div Section */
+.small-div {
+    width: 30vw; /* Adjust width as needed */
+    height: 40vh;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 10px 10px 10px #68ace5; /* Outer shadow for the div */
+    text-align: center;
+    position: relative;
+    left: 50%;
+    bottom: 35%;
+    z-index: 3;
+  }
+  
+  /* Main Heading */
+  .main-heading {
+    font-family: 'Roboto', sans-serif; /* Example nice font, you can replace with your preferred font */
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Secondary Heading */
+  .secondary-heading {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  /* Text with Box Shadow */
+  .text-with-shadow {
+    font-size: 1rem;
+    color: #666;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px #68ace5; /* Box shadow for the text */
+  }
+  /* Section containing the three containers */
+.three-container-section {
+    display: flex;
+    width: 90%;
+    gap: 10vw;
+    position: relative;
+    bottom: 16vh;
+    left: 5vw;
+   
+  }
+  
+  /* Individual container */
+  .container {
+    display: flex;
+    width: 30%; /* Each container takes up one-third of the width */
+    height: 25vh; /* Adjust height as needed */
+    bottom: 20vh;
+    
+    left: 10vw;
+  }
+  
+  /* Left section with image */
+  .image-section1 {
+    background-image: url(../images/profiles-marble-bg-laptop.12c3dddf\ \(1\).jpg);
+    flex: 0 0 30%; /* 30% width */
+    background-size: cover;
+    background-position: center;
+  }
+  .image-section2 {
+    background-image: url(../images/profiles-marble-bg-laptop.12c3dddf\ \(1\).jpg);
+    flex: 0 0 30%; /* 30% width */
+    background-size: cover;
+    background-position: center;
+  }
+  .image-section3 {
+    background-image: url(../images/profiles-marble-bg-laptop.12c3dddf\ \(1\).jpg);
+    flex: 0 0 30%; /* 30% width */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Right section with content */
+  .content-section {
+    flex: 1; /* Takes remaining space (70%) */
+    position: relative;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+  }
+  
+  /* Inner content styles */
+  .inner-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .inner-content h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .inner-content p {
+    font-size: 1rem;
+    color: #666;
+  }
+  /* Button positioned at the top-right corner */
+.top-right-button {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Sidebar styles */
+/* Sidebar default style (hidden by default) */
+.sidebar {
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: -250px; /* Hidden on the right */
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 60px;
+}
+
+/* Sidebar open state (visible) */
+.sidebar.open {
+  right: 0; /* Moves the sidebar into view */
+}
+
+/* Button to toggle the sidebar */
+.top-right-button button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Some additional styles for the sidebar content */
+.sidebar h2 {
+  color: white;
+}
+
+.sidebar p {
+  color: white;
 }
